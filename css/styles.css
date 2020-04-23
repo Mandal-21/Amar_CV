@@ -1,0 +1,147 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #16817a;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;
+}
+
+h2 {
+  color: #679b9b;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+h3 {
+  color: #679b9b;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  margin: 0 auto;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-color: #d2c6b2;
+  border-width: 6px;
+  width: 7%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #9dc6a7;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #85a392;
+}
+
+.top-container {
+  background-color: #d4ebd0;
+  padding-top: 100px;
+  position: relative;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.middle-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.bottom-container {
+  background-color: #d4ebd0;
+  margin-bottom: 0;
+  padding-top: 25px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.program {
+  margin: 0;
+  padding-top: 0;
+}
+
+.skill-row {
+  text-align: left;
+  margin: 100px auto 100px auto;
+  width: 50%;
+}
+
+.computer {
+  margin-right: 30px;
+  float: left;
+  width: 25%;
+}
+
+.work {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+
+.footer-page {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  color: #85a392;
+  font-size: 0.75rem;
+}
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #baeda1 5%, #72b352 100%);
+	background-color:#baeda1;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:8px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #baeda1 100%);
+	background-color:#72b352;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
